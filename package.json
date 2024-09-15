@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "APIRestful",
+    "JS",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Robinson Molina",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "api": "file:"
+  }
+}
